@@ -11,6 +11,7 @@ public class Main {
         Doctor myDocotrAnn = new Doctor();
         myDoctor.showId();
 
+        //Llamando un método estático
         showMenu();
 
     }

@@ -8,6 +8,7 @@ public class UIMenu {
         System.out.println("Welcome to My Appointments");
         System.out.println("Selecciona la opción deseada");
 
+        //Revisar esta parte
         int response = 0;
         do {
             System.out.println("1. Doctor");

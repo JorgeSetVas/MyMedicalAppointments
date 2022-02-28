@@ -15,6 +15,7 @@ public class Doctor {
         System.out.println("Name: " + name);
     }
 
+    //Muestra el id del doctor
     public void showId(){
         System.out.println("ID Doctor: " + id);
     }
