@@ -44,7 +44,13 @@ public class Patient {
     }
 
     public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
+        if (phoneNumber.length()>8) {
+            System.out.println("Debes colocar un número telefónico no mayor a 7 dígitos");
+        }else if(phoneNumber.length()==7){
+            this.phoneNumber = phoneNumber;
+        }else {
+            System.out.println("Debes colocar un número telefónico no menor a 7 dígitos");
+        }
     }
 
     public String getBirthday() {
