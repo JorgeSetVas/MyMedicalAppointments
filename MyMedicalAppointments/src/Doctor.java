@@ -7,16 +7,24 @@ public class Doctor {
 
     Doctor(){
         System.out.println("Construyendo el Objeto Doctor");
+    }
+
+    Doctor(String name, String speciality){
+        this.name = name;
+        this.speciality = speciality;
+        System.out.println("El nombre del Doctor asignado es: "+name);
         id++;
     }
 
     //Comportamientos
     public void showName(){
+
         System.out.println("Name: " + name);
     }
 
     //Muestra el id del doctor
     public void showId(){
+
         System.out.println("ID Doctor: " + id);
     }
 }
