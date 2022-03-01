@@ -8,6 +8,11 @@ public class Main {
 
         Patient patient = new Patient("Alejandra", "alejandra@holamail.com");
 
+        System.out.println(myDoctor.getName());
+        System.out.println(myDoctor.getSpeciality());
+
+        System.out.println(patient.getName());
+        System.out.println(patient.getEmail());
 
     }
 }
