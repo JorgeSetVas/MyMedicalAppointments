@@ -13,4 +13,44 @@ public class Hospital {
         this.secretaria = secretaria;
         this.consultorio = consultorio;
     }
+
+    public Patient getPacientes() {
+        return pacientes;
+    }
+
+    public void setPacientes(Patient pacientes) {
+        this.pacientes = pacientes;
+    }
+
+    public Doctor getDoctor() {
+        return doctor;
+    }
+
+    public void setDoctor(Doctor doctor) {
+        this.doctor = doctor;
+    }
+
+    public Enfermera getEnfermera() {
+        return enfermera;
+    }
+
+    public void setEnfermera(Enfermera enfermera) {
+        this.enfermera = enfermera;
+    }
+
+    public Secretaria getSecretaria() {
+        return secretaria;
+    }
+
+    public void setSecretaria(Secretaria secretaria) {
+        this.secretaria = secretaria;
+    }
+
+    public Consultorio getConsultorio() {
+        return consultorio;
+    }
+
+    public void setConsultorio(Consultorio consultorio) {
+        this.consultorio = consultorio;
+    }
 }
