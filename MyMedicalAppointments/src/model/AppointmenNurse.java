@@ -1,12 +1,12 @@
 package model;
 
-import  java.util.Date;
+import java.util.Date;
 
-public class AppointmentDoctor implements ISchedulable{
+public class AppointmenNurse implements ISchedulable {
 
     private int id;
     private Patient patient;
-    private Doctor doctor;
+    private Nurse nurse;
     private Date date;
     private String time;
 
@@ -26,12 +26,12 @@ public class AppointmentDoctor implements ISchedulable{
         this.patient = patient;
     }
 
-    public Doctor getDoctor() {
-        return doctor;
+    public Nurse getNurse() {
+        return nurse;
     }
 
-    public void setDoctor(Doctor doctor) {
-        this.doctor = doctor;
+    public void setNurse(Nurse nurse) {
+        this.nurse = nurse;
     }
 
     public Date getDate() {
