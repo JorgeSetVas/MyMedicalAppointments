@@ -1,3 +1,5 @@
+package model;
+
 public class Doctor extends User {
 
     private String speciality;
