@@ -11,6 +11,12 @@ public class User {
         this.name = name;
     }
 
+    @Override
+    public String toString(){
+        return "User: " + name + ", Email: " + email+
+                "\nAddress: " + address + ". Phone: "+ phoneNumber;
+    }
+
     public int getId() {
         return id;
     }
